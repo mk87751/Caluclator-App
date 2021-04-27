@@ -27,43 +27,121 @@
           ></i>
         </div>
         <div class="output-container">
-          <div class="operators">400 <span class="operands"> x </span> 300</div>
+          <div class="operators"><span class="operand">5</span></div>
           <div class="output">120000</div>
         </div>
       </div>
       <div class="input-container">
         <table class="input-table">
           <tr>
-            <th><button>AC</button></th>
-            <th><button>+/-</button></th>
-            <th><button>%</button></th>
-            <th><button>➗</button></th>
-          </tr>
-          <tr>
-            <th><button>7</button></th>
-            <th><button>8</button></th>
-            <th><button>9</button></th>
-            <th><button>x</button></th>
-          </tr>
-          <tr>
-            <th><button>4</button></th>
-            <th><button>5</button></th>
-            <th><button>6</button></th>
-            <th><button>-</button></th>
-          </tr>
-          <tr>
-            <th><button>1</button></th>
-            <th><button>2</button></th>
-            <th><button>3</button></th>
-            <th><button>+</button></th>
+            <th>
+              <button value="AC" onclick="buttonClickHandler(this.value)">
+                AC
+              </button>
+            </th>
+            <th>
+              <button value="+/-" onclick="buttonClickHandler(this.value)">
+                +/-
+              </button>
+            </th>
+            <th>
+              <button value="%" onclick="buttonClickHandler(this.value)">
+                %
+              </button>
+            </th>
+            <th>
+              <button value="/" onclick="buttonClickHandler(this.value)">
+                ➗
+              </button>
+            </th>
           </tr>
           <tr>
             <th>
-              <button><i class="fa fa-repeat" aria-hidden="true"></i></button>
+              <button value="7" onclick="buttonClickHandler(this.value)">
+                7
+              </button>
             </th>
-            <th><button>0</button></th>
-            <th><button>.</button></th>
-            <th><button>=</button></th>
+            <th>
+              <button value="8" onclick="buttonClickHandler(this.value)">
+                8
+              </button>
+            </th>
+            <th>
+              <button value="9" onclick="buttonClickHandler(this.value)">
+                9
+              </button>
+            </th>
+            <th>
+              <button value="x" onclick="buttonClickHandler(this.value)">
+                x
+              </button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button value="4" onclick="buttonClickHandler(this.value)">
+                4
+              </button>
+            </th>
+            <th>
+              <button value="5" onclick="buttonClickHandler(this.value)">
+                5
+              </button>
+            </th>
+            <th>
+              <button value="6" onclick="buttonClickHandler(this.value)">
+                6
+              </button>
+            </th>
+            <th>
+              <button value="-" onclick="buttonClickHandler(this.value)">
+                -
+              </button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button value="1" onclick="buttonClickHandler(this.value)">
+                1
+              </button>
+            </th>
+            <th>
+              <button value="2" onclick="buttonClickHandler(this.value)">
+                2
+              </button>
+            </th>
+            <th>
+              <button value="3" onclick="buttonClickHandler(this.value)">
+                3
+              </button>
+            </th>
+            <th>
+              <button value="+" onclick="buttonClickHandler(this.value)">
+                +
+              </button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button value="clear" onclick="buttonClickHandler(this.value)">
+                <i class="fa fa-repeat" aria-hidden="true"></i>
+              </button>
+            </th>
+            <th>
+              <button value="0" onclick="buttonClickHandler(this.value)">
+                0
+              </button>
+            </th>
+            <th>
+              <button value="." onclick="buttonClickHandler(this.value)">
+                .
+              </button>
+            </th>
+            <th>
+              <button value="=" onclick="buttonClickHandler(this.value)">
+                =
+              </button>
+            </th>
           </tr>
         </table>
         <div class="bottom-line">_____________</div>

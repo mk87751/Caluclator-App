@@ -18,3 +18,13 @@ const lightModeClickHandler = () => {
   document.querySelector('.output-container').style.color = '#2b2a27';
   document.querySelector('.bottom-line').style.color = '#2b2a27';
 };
+
+const buttonClickHandler = val => {
+  console.log(val);
+  if (val >= 0 && val <= 9) {
+    document.querySelector('.operators').textContent += val;
+  }
+  // else if (val == '+' || val == '-' || val == 'x' || val == '/') {
+  //   document.querySelector('.operand').textContent = ` ${val} `;
+  // }
+};
