@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0 2/css/font-awesome.min.css"
+    />
+    <title>Caluclator</title>
+  </head>
+  <body>
+    <div class="calci-container">
+      <div class="display">
+        <div class="switch">
+          <i
+            class="fa fa-sun-o light"
+            aria-hidden="true"
+            onclick="lightModeClickHandler()"
+          ></i>
+          <i
+            class="fa fa-moon-o dark"
+            aria-hidden="true"
+            onclick="nightModeClickHandler()"
+          ></i>
+        </div>
+        <div class="output-container">
+          <div class="operators">400 <span class="operands"> x </span> 300</div>
+          <div class="output">120000</div>
+        </div>
+      </div>
+      <div class="input-container">
+        <table class="input-table">
+          <tr>
+            <th><button>AC</button></th>
+            <th><button>+/-</button></th>
+            <th><button>%</button></th>
+            <th><button>➗</button></th>
+          </tr>
+          <tr>
+            <th><button>7</button></th>
+            <th><button>8</button></th>
+            <th><button>9</button></th>
+            <th><button>x</button></th>
+          </tr>
+          <tr>
+            <th><button>4</button></th>
+            <th><button>5</button></th>
+            <th><button>6</button></th>
+            <th><button>-</button></th>
+          </tr>
+          <tr>
+            <th><button>1</button></th>
+            <th><button>2</button></th>
+            <th><button>3</button></th>
+            <th><button>+</button></th>
+          </tr>
+          <tr>
+            <th>
+              <button><i class="fa fa-repeat" aria-hidden="true"></i></button>
+            </th>
+            <th><button>0</button></th>
+            <th><button>.</button></th>
+            <th><button>=</button></th>
+          </tr>
+        </table>
+        <div class="bottom-line">_____________</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
