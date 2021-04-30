@@ -27,17 +27,15 @@
           ></i>
         </div>
         <div class="output-container">
-          <div class="operators"><span class="operand">5</span></div>
-          <div class="output">120000</div>
+          <div class="operators"><span class="operand"></span></div>
+          <div class="output">0</div>
         </div>
       </div>
       <div class="input-container">
         <table class="input-table">
           <tr>
             <th>
-              <button value="AC" onclick="buttonClickHandler(this.value)">
-                AC
-              </button>
+              <button value="AC" onclick="allClearClickHandler()">AC</button>
             </th>
             <th>
               <button value="+/-" onclick="buttonClickHandler(this.value)">
@@ -133,9 +131,7 @@
               </button>
             </th>
             <th>
-              <button value="." onclick="buttonClickHandler(this.value)">
-                .
-              </button>
+              <button value="." onclick="dotClickHandler()">.</button>
             </th>
             <th>
               <button value="=" onclick="buttonClickHandler(this.value)">
